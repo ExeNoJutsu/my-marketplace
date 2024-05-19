@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    color: #fff;
+    background-color: rgb(173, 167, 167);
+    padding: 10px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.ceo-photo {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#owner-info {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.owner-info-text {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.side-info {
+    height: 40px; /* Ubah nilai tinggi sesuai kebutuhan */
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-left: 20px;
+    overflow: hidden;
+    white-space: pre-line;
+}
+
+.side-info p {
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3s steps(30, end);
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
